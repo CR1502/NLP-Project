@@ -7,7 +7,6 @@ This project implements an NLP-based system for detecting fake medical news and 
 - **BERT Transfer Model:** Fine-tune a BERT-based model for sequence classification.
 - **Ensemble Stacking:** Combine the predictions from the bagging ensemble and the BERT model using a dynamic, instance-based meta-model (Deep Meta-Ensemble).
 
-> **Note:** This version of the project does not use BART.
 
 ## File Structure
 
