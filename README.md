@@ -10,14 +10,14 @@ This repository implements an ensemble-based NLP pipeline combining bagging clas
 ├── 1_data_cleaning.ipynb           # Combine & clean PUBHEALTH TSV files
 ├── 2.1_data_vis.py                 # Visualizations for class distribution
 ├── 2.2_data_vis.py                 # Visualizations for claim length distribution
-├── 2_Dataset_recreation.py        # Split and recreate the cleaned dataset
-├── 3_Bagging.ipynb                # Train individual bagging classifiers
-├── 4_Bagging_Test.py              # Evaluate bagging models on test set
-├── 5_BERT.ipynb                   # Fine-tune BERT and evaluate on dev
-├── 6_BERT_Test.py                 # Load BERT model and test
-├── 7_final_ensemble.py           # Stack BERT + bagging + meta-learner
-├── 8_Downloading_required_files  # Download models, CSVs, tokenizers from Drive
-├── README.md                      # This file
+├── 2_Dataset_recreation.py         # Split and recreate the cleaned dataset
+├── 3_Bagging.ipynb                 # Train individual bagging classifiers
+├── 4_Bagging_Test.py               # Evaluate bagging models on test set
+├── 5_BERT.ipynb                    # Fine-tune BERT and evaluate on dev
+├── 6_BERT_Test.py                  # Load BERT model and test
+├── 7_final_ensemble.py             # Stack BERT + bagging + meta-learner
+├── 8_Downloading_required_files    # Download models, CSVs, tokenizers from Drive
+├── README.md                       # This file
 ```
 
 ## 📦 Required Dependencies
@@ -72,7 +72,7 @@ The folder in the Google Drive contains these files:
 	•	CSV files used for evaluation
 	•	All prediction outputs from bert_output, bert_output_final, etc.
 	•	Intermediate data (Final_data, Compressed model folder)
-  •	Images generated from all the files.
+  	•	Images generated from all the files.
 ```
 ## 🚀 Running the Code
 ```plaintext
