@@ -1,0 +1,15 @@
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+nltk==3.8.1
+transformers==4.31.0
+torch==2.0.1
+tqdm==4.65.0
+tokenizers==0.13.3
+ipykernel==6.22.0
+notebook==6.5.4
+joblib==1.2.0
+regex==2023.3.23
+scipy==1.10.1
