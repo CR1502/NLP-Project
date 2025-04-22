@@ -38,7 +38,6 @@ joblib==1.2.0
 regex==2023.3.23
 scipy==1.10.1
 ```
-run pip install -r requirements.txt to install them.
 
 ## 🛠️ Environment Setup Instructions
 ```plaintext
@@ -47,6 +46,74 @@ MacOS
   git clone https://github.com/your-repo/mediscan.git
   cd mediscan
   2. Create and activate a virtual environment:
-
+  python3 -m venv venv
+  source venv/bin/activate
+ 	3. Install dependencies:
+  pip install -r requirements.txt
+  4. Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
 ```
+```plaintext
+Windows
+	1. Clone the repository:
+  git clone https://github.com/your-repo/mediscan.git
+  cd mediscan
+  2. Create and activate a virtual environment:
+  python -m venv venv
+  venv\Scripts\activate
+  3. Install dependencies:
+  pip install -r requirements.txt
+  4. Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
+```
+
+```plaintext
+The folder in the Google Drive contains these files:
+
+	•	BERT model weights (Bert_Model_Final, Bert_Model_Final_Tokenizer)
+	•	CSV files used for evaluation
+	•	All prediction outputs from bert_output, bert_output_final, etc.
+	•	Intermediate data (Final_data, Compressed model folder)
+  •	Images generated from all the files.
+```
+## 🚀 Running the Code
+```plaintext
+You do NOT need to run all files from scratch. Only the final ensemble script needs to be executed.
+
+	1.	Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
+	2.	Then run: python 7_final_ensemble.py
+```
+## 🧪 Testing
+```plaintext
+To re-test the BERT model or the bagging models individually:
+python 4_Bagging_Test.py
+python 6_BERT_Test.py
+python 7_final_ensemble.py
+
+To rerun the full pipeline (optional):
+Run all scripts in order
+jupyter notebook 1_data_cleaning.ipynb
+python 2_Dataset_recreation.py
+jupyter notebook 3_Bagging.ipynb
+python 4_Bagging_Test.py
+jupyter notebook 5_BERT.ipynb
+python 6_BERT_Test.py
+python 7_final_ensemble.py
+```
+
+## 🧠 Authors
+	•	Craig Lionel Roberts
+	•	Priyanshu Srivastava
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
