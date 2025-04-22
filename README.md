@@ -1,6 +1,7 @@
-# MediScan: A Hybrid Ensemble Approach to Detecting Misinformation in Medical Claims
+# 🧬 MediScan  
+*A Hybrid Ensemble Approach to Detecting Misinformation in Medical Claims*
 
-This repository implements an ensemble-based NLP pipeline combining bagging classifiers and a BERT-based transformer under a meta-learning framework to detect false medical claims using the PUBHEALTH dataset.
+This repository implements an ensemble-based NLP pipeline that combines **bagging classifiers** and a **BERT-based transformer** under a **meta-learning framework** to detect false medical claims using the **PUBHEALTH** dataset.
 
 ---
 
@@ -19,6 +20,7 @@ This repository implements an ensemble-based NLP pipeline combining bagging clas
 ├── 8_Downloading_required_files    # Download models, CSVs, tokenizers from Drive
 ├── README.md                       # This file
 ```
+---
 
 ## 📦 Required Dependencies
 ```plaintext
@@ -39,32 +41,43 @@ regex==2023.3.23
 scipy==1.10.1
 ```
 
-## 🛠️ Environment Setup Instructions
-```plaintext
-MacOS
-  1. Clone the repository:
-  git clone https://github.com/your-repo/mediscan.git
-  cd mediscan
-  2. Create and activate a virtual environment:
-  python3 -m venv venv
-  source venv/bin/activate
- 	3. Install dependencies:
-  pip install -r requirements.txt
-  4. Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
-```
-```plaintext
-Windows
-  1. Clone the repository:
-  git clone https://github.com/your-repo/mediscan.git
-  cd mediscan
-  2. Create and activate a virtual environment:
-  python -m venv venv
-  venv\Scripts\activate
-  3. Install dependencies:
-  pip install -r requirements.txt
-  4. Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
-```
+---
 
+## ⚙️ Environment Setup Instructions
+
+### ▶️ MacOS
+
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/mediscan.git
+cd mediscan
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
+```
+### ▶️ Windows
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/mediscan.git
+cd mediscan
+
+# Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download all required files from Google Drive (from the Downloading required files.txt) and place them in the working directory.
+
+```
+### 📂 Google Drive Folder Contains:
 ```plaintext
 The folder in the Google Drive contains these files:
 
@@ -74,22 +87,24 @@ The folder in the Google Drive contains these files:
 • Intermediate data (Final_data, Compressed model folder)
 • Images generated from all the files.
 ```
-## 🚀 Running the Code
+---
+### 🚀 Running the Code
 ```plaintext
 You do NOT need to run all files from scratch. Only the final ensemble script needs to be executed.
 
 1. Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
 2. Then run: python 7_final_ensemble.py
 ```
-## 🧪 Testing
-```plaintext
-To re-test the BERT model or the bagging models individually:
+---
+### 🧪 Testing
+```bash
+# To re-test the BERT model or the bagging models individually:
 python 4_Bagging_Test.py
 python 6_BERT_Test.py
 python 7_final_ensemble.py
 
-To rerun the full pipeline (optional):
-Run all scripts in order
+# To rerun the full pipeline (optional):
+# Run all scripts in order
 jupyter notebook 1_data_cleaning.ipynb
 python 2_Dataset_recreation.py
 jupyter notebook 3_Bagging.ipynb
@@ -98,7 +113,8 @@ jupyter notebook 5_BERT.ipynb
 python 6_BERT_Test.py
 python 7_final_ensemble.py
 ```
-
-## 🧠 Authors
+---
+### 👨‍🔬 Authors
 • Craig Lionel Roberts
 • Priyanshu Srivastava
+---
