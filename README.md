@@ -68,18 +68,18 @@ Windows
 ```plaintext
 The folder in the Google Drive contains these files:
 
-	•	BERT model weights (Bert_Model_Final, Bert_Model_Final_Tokenizer)
-	•	CSV files used for evaluation
-	•	All prediction outputs from bert_output, bert_output_final, etc.
-	•	Intermediate data (Final_data, Compressed model folder)
-  	•	Images generated from all the files.
+• BERT model weights (Bert_Model_Final, Bert_Model_Final_Tokenizer)
+• CSV files used for evaluation
+• All prediction outputs from bert_output, bert_output_final, etc.
+• Intermediate data (Final_data, Compressed model folder)
+• Images generated from all the files.
 ```
 ## 🚀 Running the Code
 ```plaintext
 You do NOT need to run all files from scratch. Only the final ensemble script needs to be executed.
 
-	1. Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
-	2. Then run: python 7_final_ensemble.py
+1. Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
+2. Then run: python 7_final_ensemble.py
 ```
 ## 🧪 Testing
 ```plaintext
@@ -100,8 +100,8 @@ python 7_final_ensemble.py
 ```
 
 ## 🧠 Authors
-	• Craig Lionel Roberts
-	• Priyanshu Srivastava
+• Craig Lionel Roberts
+• Priyanshu Srivastava
 
 
 
