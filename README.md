@@ -54,7 +54,7 @@ MacOS
 ```
 ```plaintext
 Windows
-	1. Clone the repository:
+  1. Clone the repository:
   git clone https://github.com/your-repo/mediscan.git
   cd mediscan
   2. Create and activate a virtual environment:
@@ -78,8 +78,8 @@ The folder in the Google Drive contains these files:
 ```plaintext
 You do NOT need to run all files from scratch. Only the final ensemble script needs to be executed.
 
-	1.	Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
-	2.	Then run: python 7_final_ensemble.py
+	1. Make sure all data folders and model checkpoints from the Google Drive are placed in your root working directory.
+	2. Then run: python 7_final_ensemble.py
 ```
 ## 🧪 Testing
 ```plaintext
@@ -100,8 +100,8 @@ python 7_final_ensemble.py
 ```
 
 ## 🧠 Authors
-	•	Craig Lionel Roberts
-	•	Priyanshu Srivastava
+	• Craig Lionel Roberts
+	• Priyanshu Srivastava
 
 
 
